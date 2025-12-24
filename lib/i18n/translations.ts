@@ -174,6 +174,9 @@ export const translations = {
       tip4: '• Use Phở.AI to check bill before payment',
       tip5: '• If overcharged, politely but firmly negotiate',
       noResults: 'Enter location and take photo of bill to check prices',
+      error: 'Cannot analyze bill. Please try again.',
+      locationDescription: 'Enter your current location for accurate price comparison',
+      tipsTitle: 'Tips to Avoid Scams',
     },
   },
 
@@ -352,6 +355,9 @@ export const translations = {
       tip4: '• Sử dụng Phở.AI để check bill trước khi thanh toán',
       tip5: '• Nếu bị chặt chém quá đà, lịch sự nhưng kiên quyết thương lượng',
       noResults: 'Nhập địa điểm và chụp ảnh hóa đơn để kiểm tra giá',
+      error: 'Không thể phân tích hóa đơn. Vui lòng thử lại.',
+      locationDescription: 'Nhập vị trí hiện tại để so sánh giá chính xác',
+      tipsTitle: 'Tips để tránh bị chặt chém',
     },
   },
 } as const;
