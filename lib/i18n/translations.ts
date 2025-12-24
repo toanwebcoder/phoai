@@ -120,6 +120,9 @@ export const translations = {
       tip3: '"No onions" → "Không hành"',
       tip4: '"Is this dish spicy?" → "Món này có cay không?"',
       tip5: '"Can I have the menu?" → "Cho tôi xem menu được không?"',
+      error: 'An error occurred. Please try again.',
+      notSupported: 'Voice recognition is not supported in this browser. Please use Chrome or Edge.',
+      translationError: 'Translation failed. Please try again.',
     },
 
     // Smart Recommendations
@@ -147,6 +150,12 @@ export const translations = {
       day: 'Day',
       hiddenGems: 'Hidden Gems',
       noResults: 'Fill in information on the left to get itinerary suggestions',
+      enterLocation: 'Please enter a location',
+      error: 'Cannot get recommendations. Please try again.',
+      numberOfDays: 'Number of Days',
+      dietary: 'Dietary Restrictions',
+      spiceLevel: 'Spicy Level',
+      aiGenerating: 'AI is creating your itinerary...',
     },
 
     // Price Check
@@ -301,6 +310,9 @@ export const translations = {
       tip3: '• "No onions" → "Không hành"',
       tip4: '• "Is this dish spicy?" → "Món này có cay không?"',
       tip5: '• "Can I have the menu?" → "Cho tôi xem menu được không?"',
+      error: 'Đã xảy ra lỗi. Vui lòng thử lại.',
+      notSupported: 'Trình duyệt không hỗ trợ nhận diện giọng nói. Vui lòng dùng Chrome hoặc Edge.',
+      translationError: 'Dịch thất bại. Vui lòng thử lại.',
     },
 
     // Smart Recommendations
@@ -328,6 +340,12 @@ export const translations = {
       day: 'Ngày',
       hiddenGems: 'Địa điểm ít người biết',
       noResults: 'Điền thông tin bên trái để nhận gợi ý lịch trình',
+      enterLocation: 'Vui lòng nhập địa điểm',
+      error: 'Không thể tạo gợi ý. Vui lòng thử lại.',
+      numberOfDays: 'Số ngày',
+      dietary: 'Hạn chế ăn kiêng',
+      spiceLevel: 'Độ cay',
+      aiGenerating: 'AI đang tạo lịch trình cho bạn...',
     },
 
     // Price Check

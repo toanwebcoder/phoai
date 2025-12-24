@@ -290,7 +290,7 @@ export default function PriceCheck() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-gray-600">{t.priceCheck.expectedPrice}</p>
+                        <p className="text-sm text-gray-600">{t.priceCheck.expectedTotal}</p>
                         <p className="text-2xl font-bold text-green-600">
                           {displayAnalysis.expectedTotal.toLocaleString()} VND
                         </p>
