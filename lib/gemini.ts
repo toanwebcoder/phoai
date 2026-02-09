@@ -2,11 +2,11 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY || '');
 
-// Gemini 3 Pro Preview - Latest model (preview version)
+// Gemini 3 Flash Preview - Latest model (preview version)
 // Để dùng model khác, thay đổi tên model:
-// - 'gemini-3-pro-preview' - Latest, most capable (preview)
-// - 'gemini-1.5-flash' - Fast, high quota (stable)
-// - 'gemini-1.5-pro' - Smart, stable
+// - 'gemini-3-flash-preview' - Fast, latest (preview)
+// - 'gemini-3-pro-preview' - Most capable (preview)
+// - 'gemini-3-flash' - Fast, stable (when available)
 export const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' });
 
 export async function analyzeMenuImage(imageBase64: string) {

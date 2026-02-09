@@ -4,7 +4,7 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![Gemini AI](https://img.shields.io/badge/Gemini-2.0_Flash-orange)
+![Gemini AI](https://img.shields.io/badge/Gemini-3.0_Flash-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 [Live Demo](https://your-app.vercel.app) | [DevPost](https://devpost.com/software/pho-ai) | [GitHub](https://github.com/toanwebcoder/pho-ai)
@@ -78,7 +78,7 @@ Phở.AI is your **all-in-one Vietnamese food assistant** with 5 powerful featur
 - React Webcam for camera integration
 
 **AI & Vision:**
-- **Gemini 2.0 Flash** for image analysis, OCR, and NLP
+- **Gemini 3.0 Flash** for image analysis, OCR, and NLP
 - Custom prompts for Vietnamese food expertise
 - Multi-language translation pipeline
 
@@ -162,7 +162,7 @@ HTTPS required for camera access in production.
 - **Progressive enhancement** - built fallbacks for unsupported features
 
 ### AI/ML Insights
-- Gemini 2.0 Flash is incredibly fast and cost-effective for vision tasks
+- Gemini 3.0 Flash is incredibly fast and cost-effective for vision tasks
 - Prompt engineering is crucial - small wording changes = 30%+ accuracy improvement
 - Context matters - providing location/culture context improves AI responses
 
@@ -274,7 +274,7 @@ pho-ai/
 - **Accuracy:** 94%+ on clear photos
 
 ### Food Recognition
-- **Model:** Gemini 2.0 Flash multimodal
+- **Model:** Gemini 3.0 Flash multimodal
 - **Training:** Leverages Gemini's knowledge of 1000+ Vietnamese dishes
 - **Output:** Name, origin, ingredients, cultural context, eating instructions
 
